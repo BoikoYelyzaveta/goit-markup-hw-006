@@ -94,7 +94,6 @@ button{
 }
 
 
-
 /* #region header */
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -262,9 +261,6 @@ button{
 /* #endregion */
 
 
-
-
-
 /* #region  section1*/
 
 .hero {
@@ -373,9 +369,6 @@ button{
 
 
 /* #endregion */
-
-
-
 
 
 /* #region section2  */
@@ -495,10 +488,6 @@ button{
 
 
 /* #endregion */
-
-
-
-
 
 
 /* #region section3 */
@@ -1358,6 +1347,8 @@ input[type="checkbox"]:checked + .modal-form-egremeent-text .modal-form-checkbox
   display: flex;
   flex-direction: column;
   height: 100%;
+  
+  overflow-y: scroll;
 }
 
 .mobile-menu-nav {
