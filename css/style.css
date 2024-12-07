@@ -847,7 +847,6 @@ height: 420px;
    }
 
 .footer-wrapper{
-    margin-top: 72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
