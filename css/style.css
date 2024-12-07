@@ -813,7 +813,6 @@ height: 420px;
 .footer-logo-top,
   .footer-wrapper {
     display: inline-block;
-    margin-bottom:0;
  }
 
 .footer-logo {
@@ -847,6 +846,7 @@ height: 420px;
    }
 
 .footer-wrapper{
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
