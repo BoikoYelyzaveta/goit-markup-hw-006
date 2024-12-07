@@ -68,9 +68,7 @@ button{
     max-width: 1158px;
     padding: 0 15px;
     }
-.section {
-    padding: 120px 0;
-    }
+
   }
  /* #endregion */
 
@@ -262,6 +260,10 @@ button{
 
 
 /* #region  section1*/
+.hero-container{
+  
+}
+
 
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/Dark-bgmob@1x.jpg); 
@@ -269,8 +271,9 @@ button{
     background-position: center;
     background-size: cover;
     background-color: #2E2F42;
-    padding: 188px 0;  
+    padding: 72px 0;  
     margin: 0 auto;
+
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
@@ -279,17 +282,22 @@ button{
   }
 
 .hero-title {
-    max-width: 496px;
+
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 72px;
     text-transform: capitalize;
-    max-width: 288px;
     margin: 0 auto;
+
+ 
+    max-width: 216px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+  
 }
 
 .hero-button {
@@ -636,8 +644,7 @@ button{
 }
 
 .portfolio-item {
-    width: 288px;
-height: 400px;
+ 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
@@ -735,8 +742,7 @@ height: 280px;
     }
 
 .portfolio-item{
-height: 420px;
-        max-width: 356px;
+    width: calc((100% - 24px) / 2);
     }
 
 .container-img{
@@ -771,8 +777,7 @@ height: 300px;
        }
 
 .portfolio-item{
-    width: 360px;
-height: 420px;
+    width: calc((100% - 48px) / 3);
        
     }
 .container-img{
@@ -794,7 +799,7 @@ height: 420px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 96px 16px;
+   
     color: #F4F4FD;
     letter-spacing: 0.02em; 
 }
@@ -846,7 +851,7 @@ height: 420px;
    }
 
 .footer-wrapper{
-  
+  margin-bottom: 72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -892,7 +897,6 @@ height: 420px;
 }
 
 .footer-mail{
-    margin-top: 72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -952,7 +956,7 @@ height: 420px;
 @media only screen and (min-width:768px){
 .footer {
         justify-content: flex-start;
-        padding: 96px 164px 96px 108px;
+      
 
       }
 .container-footer{
@@ -1007,7 +1011,7 @@ height: 420px;
 /* desktop screen */
 @media only screen and (min-width: 1158px) {
 .footer{
-       padding: 156px 100px 159px 100px;
+       padding: 100px 0;
     }
 .container-footer{
     width: auto;
